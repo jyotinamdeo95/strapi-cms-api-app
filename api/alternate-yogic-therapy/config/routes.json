@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alternate-yogic-therapies",
+      "handler": "alternate-yogic-therapy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alternate-yogic-therapies/count",
+      "handler": "alternate-yogic-therapy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alternate-yogic-therapies/:id",
+      "handler": "alternate-yogic-therapy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alternate-yogic-therapies",
+      "handler": "alternate-yogic-therapy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alternate-yogic-therapies/:id",
+      "handler": "alternate-yogic-therapy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alternate-yogic-therapies/:id",
+      "handler": "alternate-yogic-therapy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

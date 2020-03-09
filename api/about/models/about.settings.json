@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "email1": {
+      "type": "email"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "info": {
+    "name": "Alternate Yogic Therapy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "ourServicesTitle": {
+      "type": "string"
+    },
+    "therapyTypes": {
+      "type": "text"
+    },
+    "bgImage": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "logoImg": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "carouselImg": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  },
+  "connection": "default",
+  "collectionName": "alternate_yogic_therapies"
+}
